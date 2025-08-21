@@ -2,7 +2,7 @@
      <body>
           <?php
                include 'get-parameters.php';
-
+               echo "Step 1";
                $conn = new mysqli($ep, $un, $pw, $db);
                $_pick = $_POST['selection'];
 
